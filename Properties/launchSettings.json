@@ -14,7 +14,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "http://assignment.autos:80",
+      "applicationUrl": "http://assignment.autos",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -24,7 +24,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "http://assignment.autos:80;http://assignment.autos:80",
+      "applicationUrl": "http://assignment.autos;http://assignment.autos",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

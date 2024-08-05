@@ -1,7 +1,7 @@
 --please run this for docker image and container
 docker pull postgres
-docker run --name WebAPI -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 postgres
-docker container start WebAPI
+docker run --name WebAPI_DB -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 postgres
+docker container start WebAPI_DB
 
 --open project with asp.net sdk 8.0
 remove models folder from project
